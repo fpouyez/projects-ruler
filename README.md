@@ -14,3 +14,5 @@ Avec dotenv-cli :
 ```sh
 dotenv -e .env -- yarn dev
 ```
+
+Consulter la [documentation](./docs/Installing%20database.md)
