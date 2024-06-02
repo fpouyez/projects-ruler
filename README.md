@@ -8,3 +8,9 @@ To start the app, run:
 yarn install
 yarn dev
 ```
+
+Avec dotenv-cli :
+
+```sh
+dotenv -e .env -- yarn dev
+```
