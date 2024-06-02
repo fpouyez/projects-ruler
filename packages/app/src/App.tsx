@@ -37,7 +37,6 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
 import { githubAuthApiRef } from '@backstage/core-plugin-api';
-import { AutoLogout } from '@backstage/core-components';
 
 const app = createApp({
   apis,
@@ -118,7 +117,6 @@ export default app.createRoot(
   <>
     <AlertDisplay />
     <OAuthRequestDialog />
-    <AutoLogout />
     <AppRouter>
       <Root>{routes}</Root>
     </AppRouter>
